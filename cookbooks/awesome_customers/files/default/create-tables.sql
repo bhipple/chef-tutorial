@@ -1,3 +1,4 @@
+DROP TABLE customers;
 CREATE TABLE customers(
   id CHAR (32) NOT NULL,
   PRIMARY KEY(id),
@@ -6,5 +7,5 @@ CREATE TABLE customers(
   email VARCHAR(64)
 );
 
-INSERT INTO customers ( id, first_name, last_name, email ) VALUES ( uuid(), 'Jane', 'Smith', 'jane.smith@example.com' );
-INSERT INTO customers ( id, first_name, last_name, email ) VALUES ( uuid(), 'Dave', 'Richards', 'dave.richards@example.com' );
+INSERT INTO customers ( id, first_name, last_name, email ) VALUES ( uuid(), 'Cody', 'Linhauls', 'cody@foss.com' );
+INSERT INTO customers ( id, first_name, last_name, email ) VALUES ( uuid(), 'Brody', 'Jughauls', 'brody@stallman.org' );
